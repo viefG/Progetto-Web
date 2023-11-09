@@ -1,0 +1,44 @@
+
+.button1
+{
+    background:rgb(223, 229, 215);
+    border-color: rgb(155, 19, 19);
+    border-radius: 25%;
+    font-size:16px;
+    margin: 8px 3px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.prova
+{
+    font-size:18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background:rgb(251, 251, 251);
+    border-radius:5%;
+    text-align: center;
+    border-style:solid;
+    border-color: rgb(155, 19, 19);
+    border-width:7px;
+    margin-top:20%;
+    margin-right:40%;
+    margin-left:40%;
+    margin-bottom:5%;
+    position:absolute;
+}
+input
+{
+    border-radius: 25%;
+    background:rgb(223, 229, 215);
+    border-color: rgb(155, 19, 19);
+}
+.button1:hover
+{
+    background:rgb(3, 63, 143);
+    border-color: rgb(155, 19, 19);
+    color:white;
+}
+body
+{
+
+    background-color: lightblue;
+}
