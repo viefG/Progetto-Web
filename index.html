@@ -1,14 +1,25 @@
 <html>
     <head>
+        <link rel="icon" href="icona.ico" type="image/ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="CSS/stile.css">
         <script src="script/script1.js">
         </script>
+        <title>ContaChilometri</title>
     </head>
     <body>
-    <div class="prova"><form method="post" name="modulo">
-    <p>Inserire il nome della targa:<input type="text" id="targa" maxlength=50 required></p>
-    <button class="button1" type="button" name="Invio" value="Invio" onclick="dest()">Invio</button>
-    </form>
+    <div class="form-container">
+        <div class="modifica1">
+        <form method="post" name="modulo">
+            <p>Inserire il numero della targa: </p>
+        </div>
+    <div class="modifica2">
+        <input type="text" id="targa" maxlength=50 placeholder="Es: AB123CD" required>
     </div>
+        <div class="button-container">
+            <button class="button1" type="button" name="Invio" value="Invio" onclick="dest()">Invio</button>
+        </div>
+        </form>
+</div>
     </body>
 </html>
