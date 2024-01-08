@@ -1,16 +1,25 @@
 <html>
     <head>
+        <link rel="icon" href="icona.ico" type="image/ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="CSS/style2.css">
         <script src="script/script2.js"> </script>
-        <title>Contakm</title>
+        <script src="script/script1.js"> </script>
+        <title>ContaChilometri</title>
     </head>
     <body>
     <div class="parte1">
         <p id="targa2"> </p><br>
         <p id="kilometri"> </p>
-            <script>
-                rivela_targa();
-            </script>
+        <button class="Indietro" type="button" name="Indietro" value="Indietro" onclick="back()">Indietro</button>
+        <script>
+            rivela_targa();
+        </script>
     </div>
+    <div class="errore">
+        <center><p id="messaggio"></p>
+    </div>
+
+
     </body>
 </html>
